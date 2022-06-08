@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cmp-classic": "/pages/classic/classic"
+  }
+}

@@ -1,0 +1,1 @@
+<cmp-classic cid="{{cid}}" type="{{type}}" need-navi="{{false}}"></cmp-classic>

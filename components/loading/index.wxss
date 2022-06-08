@@ -1,0 +1,46 @@
+.spinner{
+  width: 40rpx;
+  height: 40rpx;
+  position: relative;
+}
+
+.doubble-bounce1,
+.doubble-bounce2{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #3063b2;
+  opacity: .6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: bounce 2s infinite ease-in-out;
+  -webkit-animation: bounce 2s infinite ease-in-out;
+}
+
+.doubble-bounce2{
+  animation-delay: -1s;
+  -webkit-animation-delay: -1s
+}
+
+@keyframes bounce{
+  0%,100%{
+    transform: scale(0,0);
+    -webkit-transform: scale(0,0);
+  }
+  50%{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+
+@-webkit-keyframes bounce{
+  0%,100%{
+    transform: scale(0,0);
+    -webkit-transform: scale(0,0);
+  }
+  50%{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
